@@ -43,3 +43,29 @@ li.yellow {
 .iminja li .yellow {
     color:#42cbf4
 }
+
+
+
+.boja {
+    background-color:gray;
+
+
+
+}
+  .bold{
+      font-weight: bold
+  }
+
+.table {
+    height:500px;
+    width:500px;
+
+}
+.italic{
+    font-style: italic;
+}
+
+
+
+
+
