@@ -1,0 +1,134 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-family: sans-serif;
+}
+.site-header {
+        width: 100%;
+        height: 151px;
+        background-color:black;
+        border-top: 6px solid #ff670f
+
+}
+.header-top{
+    height: 105px;
+    width: 100%;
+}
+.content-container {
+    width: 1255px;
+
+}
+.htop{
+    height:105px;
+
+}
+.p {
+    color:white;
+    font-size: 12px;
+    text-transform: uppercase;
+    border-right: 1px solid #ebebeb;
+    padding: 5px;
+    float:right;
+    margin-top: 70px;
+ }
+.img{
+   
+    float: left;
+    margin-left: 140px;
+    margin-top: 50px;
+}
+.header-bottom{
+   margin-left: 120px;
+   margin-right: 40px;
+   height:46;
+   background-color: #ff670f;
+}
+.main-navigation a {
+    display: inline-block;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 5px 6px;
+    border-right: 1px solid rgb(90, 90, 90);
+    margin-top: 8px;
+}
+.banner{
+    margin-left: 140px;
+}
+.firstimg {
+    position: relative;
+    margin-left: 140px; 
+    float:left;
+    padding-right: 10px;
+}
+.caption {
+ color: white;
+ position: absolute; 
+ bottom: 5px;
+ padding: 32px 21.33333px 12.8px 5px;
+ font-size: 31px;
+ line-height: 32px;
+ text-shadow: rgba(0, 0, 0, 0.75) 1px 0px 0px;
+}
+.secondimg{
+    float:left;
+}
+.thirdimg{
+    float:left;
+    clear: after;
+ 
+}
+.fourthimg{
+    position: relative;
+    margin-top: 10px;
+    margin-left: 140px;
+    padding-right: 10px;
+    float: left;
+}
+
+.caption2{
+    position: absolute;
+    bottom: 5px;
+    padding: 32px 21.33333px 12.8px 5px;
+ font-size: 31px;
+ line-height: 32px;
+    color:white;
+    text-shadow: rgba(0, 0, 0, 0.75) 1px 0px 0px;
+}
+.fifthimg{
+    position: relative;
+    margin-top: 10px;
+    float: left;
+    padding-right: 10px;
+    
+ 
+  
+}
+.caption3{
+    position: absolute;
+    bottom:5px;
+    color: white;
+    padding: 26px 17.33333px 10.4px 13px;
+    font-size: 26px;
+    line-height: 26px;
+    text-shadow: rgba(0, 0, 0, 0.75) 1px 0px 0px;
+}
+.sixthimg{
+    position: relative;
+    margin-top: 10px;
+    float: left;
+}
+.caption4{
+    position: absolute;
+    bottom:5px;
+    color: white;
+    font-size: 26px;
+    line-height: 26px;
+    text-shadow: rgba(0, 0, 0, 0.75) 1px 0px 0px;
+    
+    
+
+}
