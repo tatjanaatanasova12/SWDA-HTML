@@ -1,0 +1,468 @@
+* {
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    list-style:none;
+    font-family: sans-serif;
+}
+
+body{
+    background-image:cover;
+    background-repeat: repeat; 
+}
+.daily{
+    position:relative;
+    width:369px;
+    height:459px;
+    background-color: #242424;
+    margin:50px;
+    border-radius: 12px;
+}
+    .daily h2 {
+    position: absolute;
+    top:40px;
+    color:white;
+    left:112px;
+}
+.daily .main{
+    position: absolute;
+    top:96px;
+    left:77px;
+}
+.krug{
+    width:52px;
+    height:52px;
+    border-radius: 50%;
+}
+    .krug .tales{
+    background-color: #4db2ac;
+    width:52px;
+    height:52px;
+    position:absolute;
+    left:50px;
+    bottom:64px;
+    border-radius: 50%;
+}
+.krug .yellows{
+    background-color: #edec93;
+    width:52px;
+    height:52px;
+    position:absolute;
+    left:118px;
+    bottom:64px;
+    border-radius: 50%;
+}
+.krug .greys{
+    background-color: #cacaca;
+    width:52px;
+    height:52px;
+    position:absolute;
+    left:197px;
+    bottom:64px;
+    border-radius: 50%;
+}
+.krug .whites{
+    background-color: white;
+    width:52px;
+    height:52px;
+    position:absolute;
+    right:36px;
+    bottom:64px;
+    border-radius: 50%;
+} 
+
+ .daily .c1{
+    color:white;
+    position:absolute;
+    bottom: 42px;
+    left:55px;
+
+}
+.daily .c2{
+    color:white;
+    position:absolute;
+    bottom: 42px;
+    left:115px;
+}
+.daily .c3{
+    color:white;
+    position:absolute;
+    bottom: 42px;
+    left:200px;
+}
+.daily .c4{
+    color:white;
+    position:absolute;
+    bottom: 42px;
+    left:280px;
+}
+.krug .tales h3{
+position: absolute;
+ top: 15px;
+ left:10px;
+}
+.krug .yellows h3{
+    position: absolute;
+     top: 15px;
+     left:10px;
+    }
+.krug .greys h3{
+    position: absolute;
+    top: 15px;
+    left:10px;
+}
+.krug .whites h3{
+     position: absolute;
+     top: 15px;
+     left:10px;
+ }
+
+
+ .headphones{
+     width:370px;
+     height: 525px;
+     position: relative;
+     border-radius: 12px;
+     margin:50px;
+     overflow: hidden;
+  
+ }
+.headphones img{
+    position:absolute;
+   154
+}
+.headphones .square{
+   position: absolute;
+   width:370px;
+   height: 154px;
+   bottom:0px;
+   background-color: #20211f; 
+}
+.headphones .square1{
+    width: 370px;
+    height: 45px;
+    position: absolute;
+    background-color: black;
+    opacity: 0.5;
+    bottom: 154px;
+}
+.headphones .price{
+    position: absolute;
+    right:0;
+    width: 109px;
+    height: 47px;
+    top:38px;
+    background-color: #4db2ac;
+    border-radius: 30px 0px 0px 30px;
+}
+
+.headphones .square .hph1 {
+    position: absolute;
+    color: #edec93;
+    left:39px;
+    top:32px;
+}
+.headphones .square .hph2{
+    position: absolute;
+    color:white;
+    font-size: 12px;
+    top:76px;
+    left:39px;
+}
+.headphones .price .pp{
+    color:white;
+    position: absolute;
+    font-size: 28px;
+    top:8px;
+    left:18px;
+}
+.square1 .imgicon{
+    position: absolute;
+    right:0;
+}
+
+
+.cloudy{
+    margin:50px;
+    position: relative;
+    width:367px; 
+    height: 527px;
+    border-radius: 12px;
+    overflow: hidden;
+
+}
+.cloudy .img3{
+    position: absolute;
+    width: 367px;
+    height: 319px;
+}
+
+.cloudy .square3 {
+    width: 367px;
+    height: 208px;
+    position: absolute;
+    background-color: #242424;
+    bottom: 0;
+}
+.cloudy .square3 .img6{
+    position: absolute;
+    top:25px;
+    left:27px;
+}
+.cloudy .square3 .img7{
+    position: absolute;
+    top:72px;
+    left:27px;
+}
+.cloudy .square3 .img8{
+    position: absolute;
+    top:121px;
+    left:27px;
+}
+.cloudy .square3 .img81{
+    position: absolute;
+    top:171px;
+    left:27px;
+}
+.cloudy .square3 .h46{
+    position: absolute;
+    top:25px;
+    left:72px;
+    color:white;
+}
+.cloudy .square3 .h47{
+    position: absolute;
+    top:79px;
+    left:72px;
+    color:white;
+}
+.cloudy .square3 .h48{
+    position: absolute;
+    top:130px;
+    left:72px;
+    color:white;
+}
+.cloudy .square3 .h49{
+    position: absolute;
+    top:180px;
+    left:72px;
+    color:white;
+}
+.cloudy .square3 .h460{
+    position: absolute;
+    color:#edec93;
+    right:21px;
+    top:25px;
+}
+.cloudy .square3 .h470{
+    position: absolute;
+    color:#edec93;
+    right:21px;
+    top:79px;
+}
+.cloudy .square3 .h480{
+    position: absolute;
+    color:#edec93;
+    right:21px;
+    top:130px;
+}
+.cloudy .square3 .h490{
+    position: absolute;
+    color:#edec93;
+    right:21px;
+    top:180px;
+}
+
+.cloudy .cld25{
+    color: white;
+    position: absolute;
+    font-size: 150px;
+    top:84px;
+    left:95px;
+}
+.cloudy .cldo{
+    color: white;
+    position: absolute;
+    font-size: 80px;
+    top:84px;
+    right: 60px;
+}
+.cloudy .img5{
+    position: absolute;
+    top: 240px;
+    left: 100px;
+}
+.cloudy .cloudyh3{
+    position: absolute;
+    top:250px;
+    color: white;
+    right: 130px;
+}
+.Eric{
+    position: relative;
+    width: 362px;
+    height: 432px;
+    border-radius: 12px;
+    background-color: #e5e6d6;
+    margin:50px;
+    
+}
+.Eric .img4{
+    position: absolute;
+    width: 201px;
+    height: 201px;
+    border-radius: 50%;
+    top:64px;
+    left:80px;
+
+}
+.Eric .img41{
+    position: absolute;
+    top:70px;
+    left:68px;
+}
+
+.Eric .eh2{
+    color:#5f1a2b;
+    position: absolute;
+    top:20px;
+    left: 100px;
+}
+.Eric .eh4{
+    position: absolute;
+    color:#5f1a2b;
+    bottom:119px;
+    left:60px;
+}
+.Eric .button{
+    position:absolute;
+    background-color: #6f8b78;
+    width: 198px;
+    height: 46px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    left:82px;
+    bottom:35px;
+}
+
+.sea{
+    position: relative;
+    width: 382px;
+    height: 284px;
+    margin:50px;
+    border-radius: 12px;
+    overflow: hidden;
+    background-color: #e5e6d6;
+}
+.sea .img9{
+    position: absolute;
+    top:0px;
+    height: 191px;
+    width: 382px;
+    
+
+
+}
+.sea .square4{
+    position: absolute;
+    background-color: #6f8b78;
+    top:185px;
+    width: 382px;
+    height: 7px;
+}
+.sea .brown{
+    position: absolute;
+    left:128px;
+    bottom:0px;
+    width: 127px;
+    height: 92px;
+    background-color: #e4d49e;
+}
+.sea .brown .likes{
+    position: absolute;
+    bottom:55px;
+    left: 40px;
+    
+}
+.sea .comments{
+    position: absolute;
+    bottom:55px;
+    left:20px;
+}
+.sea .shots{
+    position: absolute;
+    bottom: 55px;
+    right:42px;
+}
+.sea .comments1{
+    position: absolute;
+    bottom:25px;
+    color: #cf7e7c;
+    left:45px;
+
+}
+.sea .likes1{
+    position: absolute;
+    bottom:25px;
+    color: #cf7e7c;
+    left:164px;
+
+}
+.sea .shots1{
+    position: absolute;
+    bottom:25px;
+    color: #cf7e7c;
+    right:54px;
+
+}
+.bridge{
+    position: relative;
+    width: 360px;
+    height:430px;
+    border-radius: 12px;
+    background-color: #e5e6d6;
+    overflow: hidden;
+    margin:50px;
+}
+.bridge .img10{
+    position: absolute;
+    width:360px;
+    height: 210px;
+}
+.bridge .pink{
+    position: absolute;
+    width: 360px;
+    height: 65px;
+    background-color: #c96466;
+    top:210px;
+}
+.bridge h5{
+    position: absolute;
+    color:#5f1a2b;
+    top:300px;
+    left:22px;
+    font-size: 12px;
+    line-height: 17px;
+}
+.bridge .readm{
+    position: absolute;
+    color: #c96466;
+    left:22px;
+    bottom: 40px;
+    text-decoration: underline;
+}
+.bridge .pink .bwater{
+    position: absolute;
+    color:white;
+    font-size: 20px;
+    top: 20px;
+    left:113px;
+
+}
+
